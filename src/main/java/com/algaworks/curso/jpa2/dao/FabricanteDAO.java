@@ -22,7 +22,6 @@ public class FabricanteDAO implements Serializable {
 	public void salvar(Fabricante fabricante) {
 	  em.persist(fabricante);
   }
-
 	
 	@SuppressWarnings("unchecked")
 	public List<Fabricante> buscarTodos() {
