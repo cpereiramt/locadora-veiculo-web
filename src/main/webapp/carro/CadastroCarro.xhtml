@@ -47,6 +47,8 @@
 			    <p:outputLabel value="Valor diária" for="valorDiaria"/>
 			    <p:inputText id="valorDiaria" size="20" maxlength="20" value="#{cadastroCarroBean.carro.valorDiaria}"/>
 			    
+			     <p:outputLabel value="Chassi" for="chassiData"/>
+			    <p:inputText id="chassiData" size="20" maxlength="20" value="#{cadastroCarroBean.carro.chassi}"/>
 			    <p:outputLabel value="Acessórios" for="acessorios"/>
 				<p:selectManyCheckbox id="acessorios" styleClass="many-checkbox" 
 						value="#{cadastroCarroBean.carro.acessorios}" converter="acessorioConverter">
